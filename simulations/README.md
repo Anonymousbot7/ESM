@@ -5,9 +5,10 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 ## File Descriptions
 
 ### part1
-- **`alogistic.py`** **`apoisson.py`** **`abinomial.py`**  Give the ESM simulation codes under the basic settings.
-
-- **`mainstep1.m`**  Performs regression with either fixed $\lambda$ or cross-validation.
+- **`alogistic.py`** **`apoisson.py`** **`abinomial.py`**  give the ESM simulation codes under the basic settings.
+- **`Bayesianlogisticcorrectloss.m`** **`Bayesianpoissoncorrectloss.m`**   give the code for BNN in comparison. **`Bayesianreport.m`** reports the results.
+- **`Kernellogistic.m`** **`Kernelpoisson.m`** give the code for kernel regression.
+- **`ensemblelogistic.m`** **`ensemblepoisson.m`** give the code for ensembling method in comparison.
 
 
 ## Usage
