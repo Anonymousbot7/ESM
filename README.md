@@ -1,6 +1,9 @@
 # Inference for Deep Neural Network Estimators in Generalized Nonparametric Models
 
-This repository contains the implementation of our methods in **Python**.
+This repository contains the implementation of our methods in **Python**. 
+Sklearn version: 1.7.0
+Torch version: 2.6.0+cu118
+NumPy version: 1.26.4
 
 ## Structure
 
