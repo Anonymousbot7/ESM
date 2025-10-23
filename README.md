@@ -1,6 +1,6 @@
 # Inference for Deep Neural Network Estimators in Generalized Nonparametric Models
 
-This repository contains the implementation of our methods in **Python**. 
+This repository contains the implementation of our methods in **Python** 3.12.1. 
 
 - PyTorch 2.6.0+cu118
 
