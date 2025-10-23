@@ -19,4 +19,5 @@ The downloaded data are stored in **`.parquet`** format.  Use **`data188.ipynb`*
 - **`readlogisticNN458.ipynb`** and **`readpoiNN458.ipynb`** show the transfer results for hospital site 458.
 
 ## Note 
+In the **`.sh`** files, replace `youraccount` with your specific HPC account.
 
