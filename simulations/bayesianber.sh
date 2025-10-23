@@ -7,7 +7,7 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=20GB
 #SBATCH --partition=standard
-#SBATCH --account=yili1
+#SBATCH --account=youraccount
 #SBATCH --mail-type=ALL
 
 
