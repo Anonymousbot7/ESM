@@ -7,7 +7,7 @@ This repository contains the implementation of our methods in **Python**.
 - **`simulations/`**  
   Contains all codes and packages for simulation studies.
 
-- **`real_data/`**  
+- **`realdata/`**  
   Real data analysis. The algorithms are similar to those used in the simulations.
 
 ## Notes
