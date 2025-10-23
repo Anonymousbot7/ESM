@@ -2,11 +2,18 @@
 
 This repository contains the implementation of our methods in **Python**. 
 
-Sklearn version: 1.7.0
+- PyTorch 2.6.0+cu118
 
-Torch version: 2.6.0+cu118
+- NumPy 1.26.4
 
-NumPy version: 1.26.4
+- pandas: 2.3.0
+  
+- scikit-learn: 1.7.0
+  
+- joblib 1.3
+  
+- matplotlib: 3.10.0
+
 
 ## Structure
 
