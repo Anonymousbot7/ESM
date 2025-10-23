@@ -1,10 +1,11 @@
-# Simulation Workflow
+# Simulation Description
 
 The simulation codes are written in **Python** and stored in the `code/` folder, where `part1` contains the baseline setup and `part2–part10` include simple modifications of its settings.
 
 ## File Descriptions
 
-- **`mainprepare.m`**  Generates the synthetic data $\mathbf{Z}$ and $\mathbf{U}$.
+### part1
+- **`alogistic.py`** **`apoisson.py`** **`abinomial.py`**  Give the 
 
 - **`mainstep1.m`**  Performs regression with either fixed $\lambda$ or cross-validation.
 
