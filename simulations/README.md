@@ -5,7 +5,7 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 ## File Descriptions
 
 ### part1
-- **`alogistic.py`** **`apoisson.py`** **`abinomial.py`**  Give the 
+- **`alogistic.py`** **`apoisson.py`** **`abinomial.py`**  Give the ESM simulation codes under the basic settings.
 
 - **`mainstep1.m`**  Performs regression with either fixed $\lambda$ or cross-validation.
 
