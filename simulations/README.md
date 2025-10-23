@@ -19,7 +19,5 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
   
 ## Usage
 
-Run the files in the following order:
-
-This will generate synthetic data, run the regressions, compute debiased estimators, and produce the final simulation results. The corresponding .sh file helps us to submit the job to the High Performance Computing (HPC) platform.
+Generate all test data using **`generatetest.ipynb`**, then run the corresponding `.sh` files (Slurm scripts) for each setting to produce results. The submission code is written in the **`submit.txt`**.
 
