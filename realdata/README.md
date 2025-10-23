@@ -4,4 +4,5 @@ The real data used in this study are publicly available from the eICU Collaborat
 
 
 ## Data Processing
-The downloaded data is in the form of **`.parquet`**, we may use  **`data188.ipynb`** and **`data458.ipynb`** to handle the hospital site 188 and 458. The results are stored into **`.csv`** format.
+The downloaded data are stored in **`.parquet`** format.  Use **`data188.ipynb`** and **`data458.ipynb`** to process data from hospital sites 188 and 458, respectively. The processed results are saved in **`.csv`** format.
+
