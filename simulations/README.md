@@ -1,6 +1,6 @@
 # Simulation Workflow
 
-The simulation codes are written in **MATLAB**. The workflow is organized into sequential files named **`mainstep1` – `mainstep10`**.  
+The simulation codes are written in **Python** and stored in the ``code/'' folder, where ``part1'' contains the baseline setup and `part2–part10` include simple modifications of its settings.
 
 ## File Descriptions
 
