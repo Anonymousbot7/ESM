@@ -20,7 +20,9 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 ## Usage
 Set working directory `../ESM/simulations`.
 
-Generate all test data using **`generatetest.ipynb`**, then run the corresponding `.sh` files (Slurm scripts) for each setting to produce results. The exampled submission code is written in the **`submit.txt`**.
+Generate all test data using **`generatetest.ipynb`**, then run the corresponding **`.sh`** files (Slurm scripts) for each setting to produce results. The exampled submission code is written in the **`submit.txt`**.
 
 After running the code, use **`read.ipynb`** to summarize and report the simulation results. 
 
+## Note
+In the **`.sh`** files, replace `youraccount` with your specific HPC account.
