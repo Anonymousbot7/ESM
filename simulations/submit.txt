@@ -1,0 +1,132 @@
+sbatch batchpoi.sh 400 0.8
+sbatch batchber.sh 400 0.8
+sbatch batchbino.sh 400 0.8
+sbatch batchberRF.sh 700 0.85
+
+
+sbatch batchpoiRF.sh 700 0.85
+
+sinfo -N -o "%N %t %c %C"
+
+
+
+for n in 700 400; do
+  for idx in  0.9 0.85 0.8; do
+    sbatch batchber.sh $n $idx
+  done
+done 
+
+
+for n in 700 400; do
+  for idx in  0.9 0.85 0.8; do
+    sbatch batchpoi.sh $n $idx
+  done
+done 
+
+
+
+
+
+
+for n in 700 400; do
+  for B in 1200 1000 800 600 400; do
+    sbatch batchber.sh $n $B
+  done
+done 
+
+
+for n in 700 400; do
+  for B in 1200 1000 800 600 400; do
+    sbatch batchpoi.sh $n $B
+  done
+done 
+
+
+
+for L in 6 5 4 3; do
+  for idx in 0.95 0.9 0.85 0.8; do
+    sbatch batchberNN.sh $L $idx
+  done
+done 
+
+
+for L in 5 4 3; do
+  for idx in 0.95 0.9 0.85 0.8; do
+    sbatch batchpoiNN.sh $L $idx
+  done
+done 
+
+
+for n in 700 400; do
+  for idx in 0.9 0.85 0.8; do
+    sbatch batchbino.sh $n $idx
+  done
+done 
+
+
+
+
+for n in 700 400; do
+  for idx in 0.9 0.85 0.8; do
+    sbatch batchberRF.sh $n $idx
+  done
+done 
+
+
+for n in 700 400; do
+  for idx in 0.9 0.85 0.8; do
+    sbatch batchpoiRF.sh $n $idx
+  done
+done 
+
+
+
+for n in 700 400; do
+  for idx in 0.9 0.85 0.8; do
+    sbatch batchberKernel.sh $n $idx
+  done
+done 
+
+
+for n in 700 400; do
+  for idx in 0.9 0.85 0.8; do
+    sbatch batchpoiKernel.sh $n $idx
+  done
+done 
+
+
+for n in 700 400; do
+  sbatch bayesianber.sh $n  
+done 
+
+for n in 700 400; do
+  sbatch bayesianpoi.sh $n  
+done  
+
+
+
+for n in 700 400; do
+  sbatch hulcber.sh $n  
+done  
+
+for n in 700 400; do
+  sbatch hulcpoi.sh $n  
+done  
+
+
+for n in 700 400; do
+  sbatch ensembleber.sh $n  
+done  
+
+for n in 700 400; do
+  sbatch ensemblepoi.sh $n  
+done  
+
+
+for n in 700 400; do
+  sbatch naivebpber.sh $n  
+done  
+
+for n in 700 400; do
+  sbatch naivebppoi.sh $n  
+done  
