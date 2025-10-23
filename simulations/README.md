@@ -6,11 +6,14 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 
 ### part1
 - **`alogistic.py`** **`apoisson.py`** **`abinomial.py`**  give the ESM simulation codes under the basic settings.
-- **`Bayesianlogisticcorrectloss.m`** **`Bayesianpoissoncorrectloss.m`**   give the code for BNN in comparison. **`Bayesianreport.m`** reports the results.
-- **`Kernellogistic.m`** **`Kernelpoisson.m`** give the code for kernel regression.
-- **`ensemblelogistic.m`** **`ensemblepoisson.m`** give the code for ensembling method in comparison.
+- **`Bayesianlogisticcorrectloss.py`** **`Bayesianpoissoncorrectloss.py`**   give the code for BNN in comparison. **`Bayesianreport.py`** reports the results.
+- **`hulclogistic.py`** **`hulcpoisson.py`**   give the code for HulC in comparison. **`hulcreport.py`** reports the results.
+- **`ensemblelogistic.py`** **`ensemblepoisson.py`** give the code for ensembling method in comparison. **`ensemblereport.py`** reports the results.
+- **`naivebplogistic.py`** **`naivebppoisson.py`** give the code for naive boostrap in comparison. **`naivebpreport.py`** reports the results.
+- **`Kernellogistic.py`** **`Kernelpoisson.py`** give the code for kernel regression.
+- **`Rlogistic.py`** **`Rpoisson.py`** give the code for random forest.
 
-
+  
 ## Usage
 
 Run the files in the following order:
