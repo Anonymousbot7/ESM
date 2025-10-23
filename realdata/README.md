@@ -14,5 +14,9 @@ The downloaded data are stored in **`.parquet`** format.  Use **`data188.ipynb`*
 
 - **`parallelNNLog458.py`** and **`parallelNNPoi458.py`** run experiments trained on hospital 188 and directly transferred, without retraining, to hospital 458. To execute the code, use the corresponding **`.sh`** files; example commands are provided in **`submit.txt`**.
 
+- **`readlogisticNN.ipynb`**, **`readpoiNN.ipynb`**, **`readlogisticRF.ipynb`**, and **`readpoiRF.ipynb`** show the results of the ESM algorithm under logistic and Poisson regression using neural networks and random forests for hospital site 188.
 
+- **`readlogisticNN458.ipynb`** and **`readpoiNN458.ipynb`** show the transfer results for hospital site 458.
+
+## Note 
 
