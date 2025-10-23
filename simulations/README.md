@@ -21,3 +21,5 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 
 Generate all test data using **`generatetest.ipynb`**, then run the corresponding `.sh` files (Slurm scripts) for each setting to produce results. The exampled submission code is written in the **`submit.txt`**.
 
+After running the code, use **`read.ipynb`** to summarize and report the simulation results.
+
