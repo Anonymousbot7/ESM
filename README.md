@@ -1,6 +1,6 @@
-# Multi-Task Covariance-Dependent Gaussian Graphical Model
+# Inference for Deep Neural Network Estimators in Generalized Nonparametric Models
 
-This repository contains the implementation of our methods in **MATLAB**.
+This repository contains the implementation of our methods in **Python**.
 
 ## Structure
 
@@ -8,9 +8,9 @@ This repository contains the implementation of our methods in **MATLAB**.
   Contains all codes and packages for simulation studies.
 
 - **`real_data/`**  
-  Real data analysis. Readers may directly use the same packages and functions provided in the `simulations/` folder.
+  Real data analysis. The algorithms are similar to those used in the simulations.
 
 ## Notes
 
 - All workflows are organized into sequential scripts (see README inside `simulations/` for details).  
-- For real data experiments, the observed matrices $\mathbf{Z}$ and $\mathbf{U}$ are used in place of synthetic data.  
+- The data used in this study are publicly available from the eICU Collaborative Research Database (https://eicu-crd.mit.edu/) upon completion of a data use agreement and approval through the PhysioNet credentialed access process.
