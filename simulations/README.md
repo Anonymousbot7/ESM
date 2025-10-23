@@ -18,7 +18,7 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 `part2` changes $f_0$; `part3` sets $B=3{,}000$; `part4` changes data dimension $p$; `part5` changes training epochs; `part6` considers a different NN; `part7` changes weight decay; `part8` changes NN depth; `part9` changes data signal-to-noise ratio; `part10` changes dropout rate.   
   
 ## Usage
-Set working directory `ESM/simulations`.
+Set working directory `../ESM/simulations`.
 
 Generate all test data using **`generatetest.ipynb`**, then run the corresponding `.sh` files (Slurm scripts) for each setting to produce results. The exampled submission code is written in the **`submit.txt`**.
 
