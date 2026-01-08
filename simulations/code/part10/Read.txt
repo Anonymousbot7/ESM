@@ -1,1 +1,1 @@
-Consider different dropout rate.
+Consider different dropout rate. The results are shown in Section A.9.
