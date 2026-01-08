@@ -8,7 +8,7 @@ The downloaded data are stored in **`.parquet`** format.  Use **`data188.ipynb`*
 
 
 ## Data Analysis
-- **`dataprocessinglogistic.ipynb`** and **`dataprocessingpoisson.ipynb`** further process the **`.csv`** files into a custom `sampleset` class.  This class separates the $B$ subsamples and stores them for convenient use in subsequent ESM analysis. The data are equally split into five folders; in each run, four folders are used for training and the remaining one for testing, enabling full prediction coverage across all samples. Features with 46 has 29 continuous features and 17 categorical features. 
+- **`dataprocessinglogistic.ipynb`** and **`dataprocessingpoisson.ipynb`** further process the **`.csv`** files into a custom `sampleset` class.  This class separates the $B$ subsamples and stores them for convenient use in subsequent ESM analysis. The data are equally split into five folders; in each run, four folders are used for training and the remaining one for testing, enabling full prediction coverage across all samples. These files give selection p=10. For p=46, it has 29 continuous features and 17 categorical features.
 
 - **`parallelNNLog.py`**, **`parallelNNPoi.py`**, **`parallelRFLog.py`**, and **`parallelRFPoi.py`** implement the ESM algorithm under logistic and Poisson regression using neural networks and random forests, respectively. To run the code, use the corresponding **`.sh`** files; example commands are provided in **`submit.txt`**.
 
