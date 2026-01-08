@@ -1,1 +1,1 @@
-Different x, signal part strength, noise part 0.5.
+Different x, signal part strength, noise part 0.5. The results are given in Section A.4.
