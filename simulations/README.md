@@ -15,7 +15,7 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 - **`Blogistic.py`** **`Bpoisson.py`** give the code for different values of $B$ with $r=n^{0.9}$.
 - **`computationreport.py`** give the results in Table S.12.
 
-(Tables 1-2, Figure 2 in Section 4, and results in Section A.1-A.3 and A.6-A.7.)
+(Tables 1-2, Figure 2 in Section 4, and results in Sections A.1-A.3 and A.6-A.7.)
 
 ### part2-10
 `part2` changes $f_0$ (Section A.4); `part3` sets $B=3{,}000$ (Section A.7); `part4` changes data dimension $p$ (Section A.4); `part5` changes training epochs (Section A.5); `part6` considers a different NN (last part in Section 4); `part7` changes weight decay (Section A.5); `part8` changes NN depth (Section A.8); `part9` changes data signal-to-noise ratio (Section A.4); `part10` changes dropout rate (Section A.9).   
