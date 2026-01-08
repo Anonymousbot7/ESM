@@ -1,0 +1,1 @@
+Basic case, Rlogistic is the sensitive analysis with r, Blogistic is the sensitive analysis with B. 
