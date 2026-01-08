@@ -1,1 +1,1 @@
-With different NN structure.
+With different NN structure but the structure is fixed. The results are given in the last part in Section 4.
