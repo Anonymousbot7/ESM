@@ -15,8 +15,10 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 - **`Blogistic.py`** **`Bpoisson.py`** give the code for different values of $B$ with $r=n^{0.9}$.
 - **`computationreport.py`** give the results in Table S.12.
 
+(Tables 1-2, Figure 2 in Section 4, and results in Section A.1-A.3 and A.7.)
+
 ### part2-10
-`part2` changes $f_0$; `part3` sets $B=3{,}000$; `part4` changes data dimension $p$; `part5` changes training epochs; `part6` considers a different NN; `part7` changes weight decay; `part8` changes NN depth; `part9` changes data signal-to-noise ratio; `part10` changes dropout rate.   
+`part2` changes $f_0$ (Section A.4); `part3` sets $B=3{,}000$; `part4` changes data dimension $p$; `part5` changes training epochs; `part6` considers a different NN; `part7` changes weight decay; `part8` changes NN depth; `part9` changes data signal-to-noise ratio; `part10` changes dropout rate.   
   
 ## Usage
 Set working directory `../ESM/simulations`.
