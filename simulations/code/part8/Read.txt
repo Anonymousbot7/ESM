@@ -1,1 +1,1 @@
-With different NN structure. Sensitive analysis on L and r. L=3 4 5 6 and gamma = 0.8 0.85 0.9 0.95
+With different NN structure. Sensitive analysis on L and r. L=3 4 5 6 and gamma = 0.8 0.85 0.9 0.95. The results are shown in Section A.8.
