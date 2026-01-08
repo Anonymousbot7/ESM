@@ -1,23 +1,23 @@
 
 
 
-sbatch batchRFpoi.sh
+sparallel parallelRFpoi.sh
 
 
-sbatch batchRFlog.sh
+sparallel parallelRFlog.sh
 
-sbatch batchNNpoi458.sh
-sbatch batchNNlog458.sh
+sparallel parallelNNpoi458.sh
+sparallel parallelNNlog458.sh
 
 
 
 
 for i in 0 1 2 3 4; do
-    sbatch batchNNpoi.sh $i 
+    sparallel parallelNNPoi.sh $i 
 done
 
 
 
 for i in 0 1 2 3 4; do
-    sbatch batchNNlog.sh $i 
+    sparallel parallelNNlog.sh $i 
 done
