@@ -20,7 +20,7 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 ## Usage
 Set working directory `../ESM/simulations`.
 
-Generate all test data using **`generatetest.ipynb`**, then run the corresponding **`.sh`** files (Slurm scripts) for each setting to produce results. The exampled submission code is written in the **`submit.txt`**.
+Generate all test data using **`generatetest.ipynb`**, then run the corresponding **`.sh`** files (Slurm scripts) for each setting to produce results.  For each **`.py`** file, it has corresponding **`.sh`** below it. Readers may submit the corresponding **`.sh`** file to run the **`.py`** file. The exampled submission code is written in the **`submit.txt`**. 
 
 After running the code, use **`read.ipynb`** to summarize and report the simulation results. **`readf1`** gives results with the different nonlinear function. **`readRF`** and **`readkernel`** gives the results for random forest and kernel regression. **`readsensitiveB`** and **`readsensitiver`** give the results and plot in the analysis of different $B$ and $r$.
 
