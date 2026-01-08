@@ -1,1 +1,1 @@
-Consider different optimization tuning parameters. This part changes epochs = 300 and 700.
+Consider different optimization tuning parameters. This part changes epochs = 300 and 700. The results are reported in Section A.5.
