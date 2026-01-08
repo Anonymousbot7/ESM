@@ -1,1 +1,1 @@
-This is the basic part of the code, including results summarized in Tables 1-2, Figure 2 in Section 4, and results in Section A.1-A.3 and A.6-A.7.
+This is the basic part of the code, including results summarized in Tables 1-2, Figure 2 in Section 4, and results in Sections A.1-A.3 and A.6-A.7.
