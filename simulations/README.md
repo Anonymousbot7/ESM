@@ -13,6 +13,7 @@ The simulation codes are written in **Python** and stored in the `code/` folder,
 - **`Kernellogistic.py`** **`Kernelpoisson.py`** give the code for kernel regression.
 - **`Rlogistic.py`** **`Rpoisson.py`** give the code for random forest.
 - **`Blogistic.py`** **`Bpoisson.py`** give the code for different values of $B$ with $r=n^{0.9}$.
+- **`computationreport.py`** give the results in Table S.12.
 
 ### part2-10
 `part2` changes $f_0$; `part3` sets $B=3{,}000$; `part4` changes data dimension $p$; `part5` changes training epochs; `part6` considers a different NN; `part7` changes weight decay; `part8` changes NN depth; `part9` changes data signal-to-noise ratio; `part10` changes dropout rate.   
@@ -22,7 +23,7 @@ Set working directory `../ESM/simulations`.
 
 Generate all test data using **`generatetest.ipynb`**, then run the corresponding **`.sh`** files (Slurm scripts) for each setting to produce results.  For each **`.py`** file, it has corresponding **`.sh`** file below it. Readers may submit the corresponding **`.sh`** file to run the **`.py`** file. The exampled submission code is written in the **`submit.txt`**. 
 
-After running the code, use **`read.ipynb`** to summarize and report the simulation results. Readers may change the hyper parameter in the first section to report different results.  **`readf2`** gives results with the different nonlinear function. **`readRF`** and **`readkernel`** gives the results for random forest and kernel regression. **`readsensitiveB`** and **`readsensitiver`** give the results and plot in the analysis of different $B$ and $r$.
+After running the code, use **`read.ipynb`** to summarize and report the simulation results. Figures 2, 3 and S.1 can be obtained by different hyper parameters in the first section in **`read.ipynb`**. **`readf2`** gives results of Table S.9 with the different nonlinear function. **`readRF`** and **`readkernel`** gives the results for random forest and kernel regression in Section A.2 and A.3. **`readsensitiveB`** and **`readsensitiver`** give the results and plot in the analysis of different $B$ and $r$ in Section A.6 and A.7. The other results of tables can be obtained from **`read.ipynb`** by varying the hyper parameter in first section.
 
 ## Note
 In the **`.sh`** files, replace `youraccount` with your specific HPC account.
