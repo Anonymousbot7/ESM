@@ -6,12 +6,6 @@ sbatch parallelRFpoi.sh
 
 sbatch parallelRFlog.sh
 
-sbatch parallelNNpoi458.sh
-sbatch parallelNNlog458.sh
-
-
-
-
 for i in 0 1 2 3 4; do
     sbatch parallelNNPoi.sh $i 
 done
@@ -21,3 +15,10 @@ done
 for i in 0 1 2 3 4; do
     sbatch parallelNNlog.sh $i 
 done
+
+sbatch parallelNNpoi458.sh
+sbatch parallelNNlog458.sh
+
+
+
+
